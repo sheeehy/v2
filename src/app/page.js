@@ -405,7 +405,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* EVENT-SERVICE PROJECT */}
+              {/* EVENT-TICKETING PROJECT */}
               <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
