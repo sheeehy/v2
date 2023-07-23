@@ -7,6 +7,16 @@ import {
 import Image from "next/image";
 import me from "public/me.png";
 
+import Image1 from "public/git.png";
+import Image2 from "public/java.png";
+import Image3 from "public/javascript.png";
+import Image4 from "public/linux.png";
+import Image5 from "public/python.png";
+import Image6 from "public/react.png";
+import Image7 from "public/spring.png";
+import Image8 from "public/neovim.png";
+import Image9 from "public/nodejs.png";
+
 export default function Home() {
   return (
     <div>
@@ -36,12 +46,12 @@ export default function Home() {
         </nav>
 
         <section className="flex items-start justify-center h-screen pt-32">
-          <div className="bg-dark-blue flex items-start py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none">
+          <div className="bg-dark-blue flex items-start py-6 px-6 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
             <div className="max-w-lg ">
-              <h2 className="text-4xl py-0 font-extrabold text-glow">
+              <h2 className="text-4xl pb-2 font-extrabold text-glow">
                 Business Computing student at TU Dublin.
               </h2>
-              <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom">
+              <p className="text-xl pb-2 pt-1 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom">
                 Hi, I'm <span className="outer-glow1">Jack Sheehy</span>. I'm a
                 hard-working Business Computing student at TU Dublin, based in
                 Wicklow, Ireland.
@@ -76,19 +86,11 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="hidden custom1:block">
+            <div className="hidden custom1:block pl-5">
               <Image className="image-size" src={me} />
             </div>
           </div>
         </section>
-        <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 w-16 h-14 mx-auto animate-fade-in delay-5s">
-          <div className="w-1 p-2.5 h-9 border-2 border-white rounded-full opacity-75 box-content">
-            <div
-              id="scroller"
-              className="w-1 h-2.5 bg-white rounded-25 animate-scroll"
-            ></div>
-          </div>
-        </div>
 
         <section className=" justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
           <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
@@ -126,6 +128,16 @@ export default function Home() {
               Boot, Javascript and Python. In the future, I'd like to learn C#
               or Rust.
             </p>
+            <div className="flex space-x-4 pt-5 overflow-hidden">
+              <Image src={Image2} alt="Java Icon" className="w-10 h-10" />
+              <Image src={Image3} alt="JavaScript Icon" className="w-10 h-10" />
+              <Image src={Image5} alt="Python Icon" className="w-10 h-10" />
+              <Image src={Image1} alt="Git Icon" className="w-10 h-10" />
+              <Image src={Image6} alt="React Icon" className="w-10 h-10" />
+              <Image src={Image7} alt="Spring Icon" className="w-10 h-10" />
+              <Image src={Image4} alt="Linux Icon" className="w-10 h-10" />
+              <Image src={Image9} alt="Vim Icon" className="w-10 h-10" />
+            </div>
           </div>
         </section>
       </main>
