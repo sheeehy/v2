@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -7,7 +6,6 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import me from "public/me.png";
-import Flag from "react-flagkit";
 
 export default function Home() {
   return (
@@ -18,14 +16,12 @@ export default function Home() {
         <link rel="icon" href="/me.png" />
       </Head>
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
-        <nav className="py-10 mb-12 flex justify-between">
+        <nav className="pt-10 mb-12 flex justify-between">
           <h1 className="text-xl font-extrabold hover:select-none">
             jack sheehy
           </h1>
           <ul className="flex items-center">
-            <li>
-              <Flag country="IE" size={40} />
-            </li>
+            <li className="font-normal tracking-wider">Gaeilge</li>
             <li>
               <a
                 className="bg-dark-gray  px-8 rounded-lg ml-8 outer-glow text-xl py-4 leading-8 tracking-wider text-white max-w-screen-md font-custom"
@@ -39,8 +35,8 @@ export default function Home() {
           </ul>
         </nav>
 
-        <section className="flex items-center justify-center h-screen">
-          <div className="bg-dark-blue flex justify-center items-start py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none mt-[-300px]">
+        <section className=" flex items-start justify-center h-screen pt-32">
+          <div className="bg-dark-blue flex items-start py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none">
             <div className="max-w-lg ">
               <h2 className="text-4xl py-0 font-extrabold text-glow">
                 Business Computing student at TU Dublin.
@@ -86,7 +82,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className="h-screen flex items-center">
           <div className="max-w-2xl mx-auto tracking-wider ">
             <h3 className="text-4xl py-0 font-extrabold text-glow">About Me</h3>
             <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
