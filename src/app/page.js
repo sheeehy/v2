@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="  h-screen flex flex-wrap items-start gap-16">
+        <section className="  h-screen flex flex-wrap items-start gap-4">
           <div className="bg-dark-blue py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
             <h3 className="text-3xl py-0 font-extrabold text-glow">About Me</h3>
             <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
