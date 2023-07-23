@@ -6,17 +6,10 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import Image from "next/image";
-import me from "../public/me.png"; // adjust the path as necessary
+import me from "public/me.png";
 import Flag from "react-flagkit";
-import React, { useState } from "react";
 
 export default function Home() {
-  const [country, setCountry] = useState("IE");
-
-  const handleFlagClick = () => {
-    setCountry("GB"); // assuming you want to change the flag to the UK
-  };
-
   return (
     <div>
       <Head>
@@ -30,10 +23,9 @@ export default function Home() {
             jack sheehy
           </h1>
           <ul className="flex items-center">
-            <li onClick={handleFlagClick}>
-              <Flag country={country} size={40} />
+            <li>
+              <Flag country="IE" size={40} />
             </li>
-
             <li>
               <a
                 className="bg-dark-gray  px-8 rounded-lg ml-8 outer-glow text-xl py-4 leading-8 tracking-wider text-white max-w-screen-md font-custom"
