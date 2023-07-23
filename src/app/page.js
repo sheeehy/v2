@@ -24,7 +24,7 @@ export default function Home() {
             <li className="font-normal tracking-wider">Gaeilge</li>
             <li>
               <a
-                className="bg-dark-gray  px-8 rounded-lg ml-8 outer-glow text-xl py-4 leading-8 tracking-wider text-white max-w-screen-md font-custom"
+                className="bg-dark-gray px-8 rounded-lg ml-8 outer-glow text-xl py-4 leading-8 tracking-wider text-white max-w-screen-md font-custom"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -35,7 +35,7 @@ export default function Home() {
           </ul>
         </nav>
 
-        <section className=" flex items-start justify-center h-screen pt-32">
+        <section className="flex items-start justify-center h-screen pt-32">
           <div className="bg-dark-blue flex items-start py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none">
             <div className="max-w-lg ">
               <h2 className="text-4xl py-0 font-extrabold text-glow">
@@ -81,8 +81,16 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div className="absolute bottom-40 left-1/2 transform -translate-x-1/2 w-16 h-14 mx-auto animate-fade-in delay-5s">
+          <div className="w-1 p-2.5 h-9 border-2 border-white rounded-full opacity-75 box-content">
+            <div
+              id="scroller"
+              className="w-1 h-2.5 bg-white rounded-25 animate-scroll"
+            ></div>
+          </div>
+        </div>
 
-        <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+        <section className=" justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
           <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
             <h3 className="text-3xl py-0 font-extrabold text-glow">About Me</h3>
             <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
@@ -106,17 +114,17 @@ export default function Home() {
             </h3>
 
             <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
-              Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin studying
-              Business Computing. My passion for technology started at a young
-              age, so it was a natural choice for me to pursue a career in that
-              field as I got older.
+              As a Business Computing student, I cover a diverse range of topics
+              such as Object-Oriented Programming, Web Development, Algorithms,
+              Data Structures, as well as business. My interest in technology is
+              not limited to software but extends to hardware as well. From
+              building custom PCs to tinkering with electronic devices.
             </p>
             <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
-              In addition to my love of technology, I am also interested in art
-              and design, as well as business and entrepreneurship. I really
-              enjoy learning, regardless of the field, so studying Business &
-              Computer Science has left me eager to purse something meaningful
-              in the industry.
+              We have a primary focus on Java, though outside of coursework I'm
+              learning other languages and frameworks such as React, Spring
+              Boot, Javascript and Python. In the future, I'd like to learn C#
+              or Rust.
             </p>
           </div>
         </section>

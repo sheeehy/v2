@@ -8,6 +8,21 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        "fade-in": "fade-in 5s",
+        scroll: "scroll 2.2s cubic-bezier(.15,.41,.69,.94) infinite",
+      },
+      keyframes: {
+        "fade-in": {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        scroll: {
+          "0%": { opacity: 0 },
+          "10%": { transform: "translateY(0)", opacity: 1 },
+          "100%": { transform: "translateY(15px)", opacity: 0 },
+        },
+      },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
       },
