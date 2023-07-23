@@ -82,9 +82,28 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="h-screen flex items-center">
-          <div className="max-w-2xl mx-auto tracking-wider ">
+        <section className=" h-screen flex flex-wrap items-start gap-16 md:gap-0">
+          <div className="bg-dark-blue py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
             <h3 className="text-4xl py-0 font-extrabold text-glow">About Me</h3>
+            <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+              Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin studying
+              Business Computing. My passion for technology started at a young
+              age, so it was a natural choice for me to pursue a career in that
+              field as I got older.
+            </p>
+            <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+              In addition to my love of technology, I am also interested in art
+              and design, as well as business and entrepreneurship. I really
+              enjoy learning, regardless of the field, so studying Business &
+              Computer Science has left me eager to purse something meaningful
+              in the industry.
+            </p>
+          </div>
+
+          <div className="bg-dark-blue py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
+            <h3 className="text-4xl py-0 font-extrabold text-glow">
+              What I'm Learning
+            </h3>
             <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
               Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin studying
               Business Computing. My passion for technology started at a young
