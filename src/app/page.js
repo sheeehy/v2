@@ -36,7 +36,7 @@ export default function Home() {
           </ul>
         </nav>
 
-        <section className="flex items-center justify-center min-h-screen">
+        <section className="flex items-center justify-center h-screen">
           <div className="bg-dark-blue flex justify-center items-start py-7 px-10 mx-auto rounded-custom outer-glow custom-width hover:select-none mt-[-300px]">
             <div className="max-w-lg ">
               <h2 className="text-4xl py-0 font-extrabold text-glow">
@@ -84,17 +84,20 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="max-w-xl mx-auto tracking-wider py-5">
-            <h3 className="text-3xl py-1 mx-auto tracking-wider">About Me</h3>
-            <p className="text-md py-2 leading-8 ">
-              Hi, I'm Jack Sheehy and I'm from Dublin, Ireland. I'm currently a
-              student in TU Dublin studying Business Computing. My passion for
-              technology started at a young age, so it was a natural choice for
-              me to pursue a career in that field as I got older. In addition to
-              my love of technology, I am also interested in art and design, as
-              well as business and entrepreneurship. I really enjoy learning,
-              regardless of the field, so studying Business & Computer Science
-              has left me eager to purse something meaningful in the industry.
+          <div className="max-w-2xl mx-auto tracking-wider ">
+            <h3 className="text-4xl py-0 font-extrabold text-glow">About Me</h3>
+            <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+              Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin studying
+              Business Computing. My passion for technology started at a young
+              age, so it was a natural choice for me to pursue a career in that
+              field as I got older.
+            </p>
+            <p className="text-xl py-4 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+              In addition to my love of technology, I am also interested in art
+              and design, as well as business and entrepreneurship. I really
+              enjoy learning, regardless of the field, so studying Business &
+              Computer Science has left me eager to purse something meaningful
+              in the industry.
             </p>
           </div>
         </section>
