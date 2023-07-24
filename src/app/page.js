@@ -18,6 +18,8 @@ import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
 
+import NextTopLoader from "nextjs-toploader";
+
 export default function Home() {
   return (
     <div>
@@ -26,7 +28,9 @@ export default function Home() {
         <meta name="" content="" />
         <link rel="icon" href="/me.png" />
       </Head>
+
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
+        <NextTopLoader />
         <nav className="pt-10 mb-12 flex justify-between">
           <h1 className="text-xl font-extrabold hover:select-none hidden sm:block">
             jack sheehy
