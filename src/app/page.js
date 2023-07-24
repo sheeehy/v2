@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -15,7 +16,6 @@ import Image4 from "public/linux.png";
 import Image5 from "public/python.png";
 import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
-import Image8 from "public/neovim.png";
 import Image9 from "public/nodejs.png";
 
 export default function Home() {
@@ -28,9 +28,10 @@ export default function Home() {
       </Head>
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
         <nav className="pt-10 mb-12 flex justify-between">
-          <h1 className="text-xl font-extrabold hover:select-none">
+          <h1 className="text-xl font-extrabold hover:select-none hidden sm:block">
             jack sheehy
           </h1>
+
           <ul className="flex items-center">
             <li className="font-normal tracking-wider">Gaeilge</li>
             <li>
@@ -142,6 +143,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section></section>
       </main>
     </div>
   );
