@@ -36,7 +36,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 | white          | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF `|
 | Lightest Gray  | ![#F3F4F6](https://via.placeholder.com/10/F3F4F6?text=+) `#F3F4F6 `|
 | Lighter Gray   | ![#6B7280](https://via.placeholder.com/10/6B7280?text=+) `#6B7280` |
-
 | Dark Gray      | ![#181e24](https://via.placeholder.com/10/181e24?text=+) `#181e24` |
 | Darker Gray    | ![#242C35](https://via.placeholder.com/10/242C35?text=+) `#242C35` |
 
