@@ -37,6 +37,7 @@ module.exports = {
       colors: {
         "dark-blue": "#181e24",
         "dark-gray": "#242C35",
+        "darkest-gray": "#542C75",
       },
       borderRadius: {
         custom: "3rem",
