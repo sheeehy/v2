@@ -1,4 +1,4 @@
-## Version 2 of my personal website.
+##  v2 of my personal website.
 Built with React, Next.js and Tailwind CSS.
 
 ## Getting Started
