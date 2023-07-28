@@ -372,7 +372,7 @@ export default function Home() {
 
           <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-20 md:grid hidden">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
-              {/* SCRIPT PROJECT */}
+              {/* PYTHON SCRIPT PROJECT */}
               <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
