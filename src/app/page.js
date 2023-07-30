@@ -10,6 +10,8 @@ import Image from "next/image";
 import me from "public/me.png";
 import me2 from "public/me2.png";
 
+import { FiExternalLink } from "react-icons/fi";
+
 import Image1 from "public/git.png";
 import Image2 from "public/java.png";
 import Image3 from "public/javascript.png";
@@ -18,6 +20,8 @@ import Image5 from "public/python.png";
 import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
+
+import Project1 from "public/lgdaProject.jpg";
 
 export default function Home() {
   return (
@@ -29,13 +33,15 @@ export default function Home() {
       </Head>
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
-        <nav className="pt-10 mb-12 flex justify-between sticky top-0 bg-transparent ">
-          <h1 className="text-xl font-extrabold hover:select-none hidden sm:block">
+        <nav className="pt-10 mb-12 flex justify-between  top-0 bg-transparent ">
+          <h1 className="text-xl font-extrabold hover:select-none hidden sm:block bg-dark-blue px-5 rounded-lg ">
             <Link href="/">jack sheehy</Link>
           </h1>
 
           <ul className="flex items-center">
-            <li className="font-small tracking-wider">Gaeilge</li>
+            <li className="font-small tracking-wider bg-dark-blue px-5 rounded-lg ml-8 text-base py-3">
+              Gaeilge
+            </li>
             <li className="">
               <a
                 className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom"
@@ -95,7 +101,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
           <div className="bg-dark-blue pt-7 pb-10 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3 flex flex-col">
             <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
@@ -108,7 +113,10 @@ export default function Home() {
                 at a young age, so it was a natural choice for me to pursue a
                 career in that field as I got older.
               </p>
-              <Image className="image-size2 self-start pb-0 pl-2" src={me2} />
+              <Image
+                className="image-size2 self-start pb-0 pl-2 max-2xl:hidden"
+                src={me2}
+              />
             </div>
             <p className="text-md py-1 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom pb-1">
               In addition to my love of technology, I am also interested in art
@@ -137,15 +145,205 @@ export default function Home() {
               to hardware as well. From building custom PCs to tinkering with
               electronic devices.
             </p>
-            <div className="flex space-x-4 pt-5 overflow-hidden">
-              <Image src={Image2} alt="Java Icon" className="w-10 h-10" />
-              <Image src={Image3} alt="JavaScript Icon" className="w-10 h-10" />
-              <Image src={Image5} alt="Python Icon" className="w-10 h-10" />
-              <Image src={Image6} alt="React Icon" className="w-11 h-10" />
-              <Image src={Image7} alt="Spring Icon" className="w-11 h-11" />
-              <Image src={Image9} alt="Vim Icon" className="w-10 h-10" />
-              <Image src={Image1} alt="Git Icon" className="w-10 h-10" />
-              <Image src={Image4} alt="Linux Icon" className="w-10 h-10" />
+            <div className="flex space-x-4 pt-5  flex-wrap">
+              <Image
+                src={Image2}
+                alt="Java Icon"
+                className="w-10 h-10 max-2xl:hidden"
+              />
+              <Image
+                src={Image3}
+                alt="JavaScript Icon"
+                className="w-10 h-10 max-2xl:hidden"
+              />
+              <Image
+                src={Image5}
+                alt="Python Icon"
+                className="w-10 h-10 max-2xl:hidden"
+              />
+              <Image
+                src={Image6}
+                alt="React Icon"
+                className="w-11 h-10 max-2xl:hidden"
+              />
+              <Image
+                src={Image7}
+                alt="Spring Icon"
+                className="w-11 h-11 max-2xl:hidden"
+              />
+              <Image
+                src={Image9}
+                alt="Vim Icon"
+                className="w-10 h-10 max-2xl:hidden"
+              />
+              <Image
+                src={Image1}
+                alt="Git Icon"
+                className="w-10 h-10 max-2xl:hidden"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <Image
+              src={Project1}
+              className="px-3 rounded-custom pt-2"
+              alt="Sunset in the mountains"
+            />
+            <div class="px-6 py-4">
+              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                LGDA Web Platform
+              </div>
+              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                A full-stack web platform built for the Local Government
+                Directors Association. Designed and developed the frontend and
+                backend, including user-friendly UI/UX, a scalable database and
+                secure user-authentication.
+              </p>
+            </div>
+            <div class="px-6 pt-2 pb-2">
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                JavaScript
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                HTML
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                CSS
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                PostgreSQL
+              </span>
+
+              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy/Old-LGDA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <Image
+              src={Project1}
+              className="px-3 rounded-custom pt-2"
+              alt="Sunset in the mountains"
+            />
+            <div class="px-6 py-4">
+              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                LGDA Web Platform
+              </div>
+              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                A full-stack web platform built for the Local Government
+                Directors Association. Designed and developed the frontend and
+                backend, including user-friendly UI/UX, a scalable database and
+                secure user-authentication.
+              </p>
+            </div>
+            <div class="px-6 pt-2 pb-2">
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                JavaScript
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                HTML
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                CSS
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                PostgreSQL
+              </span>
+
+              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <Image
+              src={Project1}
+              className="px-3 rounded-custom pt-2"
+              alt="Sunset in the mountains"
+            />
+            <div class="px-6 py-4">
+              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                LGDA Web Platform
+              </div>
+              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                A full-stack web platform built for the Local Government
+                Directors Association. Designed and developed the frontend and
+                backend, including user-friendly UI/UX, a scalable database and
+                secure user-authentication.
+              </p>
+            </div>
+            <div class="px-6 pt-2 pb-2">
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                JavaScript
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                HTML
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                CSS
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                PostgreSQL
+              </span>
+
+              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiExternalLink />
+                </a>
+              </div>
             </div>
           </div>
         </section>
