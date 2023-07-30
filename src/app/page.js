@@ -35,10 +35,10 @@ export default function Home() {
           </h1>
 
           <ul className="flex items-center">
-            <li className="font-normal tracking-wider">Gaeilge</li>
-            <li>
+            <li className="font-small tracking-wider">Gaeilge</li>
+            <li className="">
               <a
-                className="bg-dark-gray px-8 rounded-lg ml-8 outer-glow text-xl py-4 leading-8 tracking-wider text-white max-w-screen-md font-custom"
+                className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom"
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
