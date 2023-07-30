@@ -21,7 +21,7 @@ import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
 
-import Project1 from "public/lgdaProject.jpg";
+import Project1 from "public/lgdaProject.JPG";
 
 export default function Home() {
   return (
