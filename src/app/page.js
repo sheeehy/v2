@@ -29,7 +29,7 @@ export default function Home() {
       </Head>
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
-        <nav className="pt-10 mb-12 flex justify-between">
+        <nav className="pt-10 mb-12 flex justify-between sticky top-0 bg-transparent ">
           <h1 className="text-xl font-extrabold hover:select-none hidden sm:block">
             <Link href="/">jack sheehy</Link>
           </h1>
@@ -97,16 +97,18 @@ export default function Home() {
         </section>
 
         <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
-          <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
+          <div className="bg-dark-blue pt-7 pb-10 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3 flex flex-col">
             <h3 className="text-3xl py-0 font-extrabold text-glow">About Me</h3>
-            <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
-              Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin studying
-              Business Computing. My passion for technology started at a young
-              age, so it was a natural choice for me to pursue a career in that
-              field as I got older.
-            </p>
-
-            <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+            <div className="flex justify-between">
+              <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom">
+                Hi, I'm Jack Sheehy. I'm currently a student in TU Dublin
+                studying Business Computing. My passion for technology started
+                at a young age, so it was a natural choice for me to pursue a
+                career in that field as I got older.
+              </p>
+              <Image className="image-size2 self-start pb-0 pl-2" src={me2} />
+            </div>
+            <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom pb-1">
               In addition to my love of technology, I am also interested in art
               and design, as well as business and entrepreneurship. I really
               enjoy learning, regardless of the field, so studying Business &
