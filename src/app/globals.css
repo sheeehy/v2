@@ -78,3 +78,25 @@ a {
     animation: scroll 2.2s cubic-bezier(.15,.41,.69,.94) infinite;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #181e24; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e3a44; 
+  border-radius: 15px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #384753; 
+}

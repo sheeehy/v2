@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 import {
   AiFillLinkedin,
@@ -18,8 +19,6 @@ import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
 
-import NextTopLoader from "nextjs-toploader";
-
 export default function Home() {
   return (
     <div>
@@ -30,10 +29,9 @@ export default function Home() {
       </Head>
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
-        <NextTopLoader />
         <nav className="pt-10 mb-12 flex justify-between">
           <h1 className="text-xl font-extrabold hover:select-none hidden sm:block">
-            jack sheehy
+            <Link href="/">jack sheehy</Link>
           </h1>
 
           <ul className="flex items-center">
@@ -125,30 +123,28 @@ export default function Home() {
             <p className="text-md py-4 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
               As a Business Computing student, I cover a diverse range of topics
               such as Object-Oriented Programming, Web Development, Algorithms,
-              Data Structures, as well as business. My interest in technology is
-              not limited to software but extends to hardware as well. From
-              building custom PCs to tinkering with electronic devices.
+              Data Structures, as well as business. We have a primary focus on
+              Java, though outside of coursework I'm learning other languages
+              and frameworks such as React, Spring Boot, Javascript, Python and
+              more. In the future, I'd like to learn C# or Rust.
             </p>
             <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
-              We have a primary focus on Java, though outside of coursework I'm
-              learning other languages and frameworks such as React, Spring
-              Boot, Javascript and Python. In the future, I'd like to learn C#
-              or Rust.
+              My interest in technology is not limited to software but extends
+              to hardware as well. From building custom PCs to tinkering with
+              electronic devices.
             </p>
             <div className="flex space-x-4 pt-5 overflow-hidden">
               <Image src={Image2} alt="Java Icon" className="w-10 h-10" />
               <Image src={Image3} alt="JavaScript Icon" className="w-10 h-10" />
               <Image src={Image5} alt="Python Icon" className="w-10 h-10" />
-              <Image src={Image1} alt="Git Icon" className="w-10 h-10" />
-              <Image src={Image6} alt="React Icon" className="w-10 h-10" />
-              <Image src={Image7} alt="Spring Icon" className="w-10 h-10" />
-              <Image src={Image4} alt="Linux Icon" className="w-10 h-10" />
+              <Image src={Image6} alt="React Icon" className="w-11 h-10" />
+              <Image src={Image7} alt="Spring Icon" className="w-11 h-11" />
               <Image src={Image9} alt="Vim Icon" className="w-10 h-10" />
+              <Image src={Image1} alt="Git Icon" className="w-10 h-10" />
+              <Image src={Image4} alt="Linux Icon" className="w-10 h-10" />
             </div>
           </div>
         </section>
-
-        <section></section>
       </main>
     </div>
   );
