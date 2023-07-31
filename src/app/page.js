@@ -456,14 +456,6 @@ export default function Home() {
                   >
                     <AiFillGithub />
                   </a>
-                  <a
-                    className="hover:text-gray-500 transition ease-in-out duration-200"
-                    href="https://v2-sheeehy.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiExternalLink />
-                  </a>
                 </div>
               </div>
             </div>
@@ -568,6 +560,31 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="flex items-center justify-center h-screen py-64">
+          <div className="bg-dark-blue flex flex-col items-center py-6 px-6 rounded-custom outer-glow custom-width hover:select-none ">
+            <div className="max-w-lg text-center">
+              <h2 className="text-4xl pb-2 font-extrabold text-glow">
+                Get In Touch
+              </h2>
+              <p className="text-xl pb-6 pt-1 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom">
+                I'm currently a full-time student, but don't hesitate to contact
+                me if you have a question or just want to touch base. I’ll do my
+                best to get back to you! :)
+              </p>
+            </div>
+            <div className="bg-dark-blue py-4 px-0 w-60 rounded-custom outer-glow flex justify-center">
+              <a
+                href="mailto:jackhughsheehy@gmail.com"
+                className="flex justify-center"
+              >
+                <h1 className="text-2xl pb-0 font-extrabold text-glow">
+                  Contact Me
+                </h1>
+              </a>
             </div>
           </div>
         </section>
