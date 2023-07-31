@@ -15,7 +15,6 @@ import { FiExternalLink } from "react-icons/fi";
 import Image1 from "public/git.png";
 import Image2 from "public/java.png";
 import Image3 from "public/javascript.png";
-import Image4 from "public/linux.png";
 import Image5 from "public/python.png";
 import Image6 from "public/react.png";
 import Image7 from "public/spring.png";
@@ -31,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Jack Sheehy | Student</title>
         <meta name="" content="" />
-        <link rel="icon" href="/me.png" />
+        <link rel="icon" href="public/me.png" />
       </Head>
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
@@ -42,7 +41,7 @@ export default function Home() {
 
           <ul className="flex items-center">
             <li className="font-small tracking-wider bg-dark-blue px-5 rounded-lg ml-8 text-base py-3">
-              Gaeilge
+              <a> Gaeilge </a>
             </li>
             <li className="">
               <a
@@ -103,6 +102,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
           <div className="bg-dark-blue pt-7 pb-10 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3 flex flex-col">
             <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
@@ -231,15 +231,6 @@ export default function Home() {
               <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
                 <a
                   className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiFillGithub />
-                </a>
-
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
                   href="http://www.lgda.ie/login.php"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -262,7 +253,7 @@ export default function Home() {
                 Geo Git
               </div>
               <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A full-stack web app that tracks the top GitHub users by
+                A full-stack web app that ranks the top GitHub users by
                 location, making use of the GitHub API and GitHub Developer
                 Program. Gathers the top users by location based on followers,
                 number of repositories, etc.
@@ -282,6 +273,10 @@ export default function Home() {
 
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                 NextJS
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                Vercel
               </span>
 
               <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">

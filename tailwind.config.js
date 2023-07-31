@@ -8,9 +8,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        "gradient-green-white-orange":
+          "linear-gradient(to right, green, white, orange)",
+      }),
+      transitionProperty: {
+        bg: "background-image",
+      },
       animation: {
         "fade-in": "fade-in 5s",
         scroll: "scroll 2.2s cubic-bezier(.15,.41,.69,.94) infinite",
+      },
+      boxShadow: {
+        "outer-glow": "0 0 15px 5px rgba(0, 200, 0, .7)", // Customize the color and size of the outer glow as desired.
       },
       keyframes: {
         "fade-in": {
@@ -51,6 +61,13 @@ module.exports = {
         "2xl": "1536px",
         "max-2xl": { max: "1499px" },
       },
+    },
+  },
+
+  variants: {
+    extend: {
+      backgroundImage: ["hover", "focus"],
+      boxShadow: ["hover"],
     },
   },
   plugins: [
