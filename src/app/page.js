@@ -103,7 +103,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+        <section className="pb-5 justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
           <div className="bg-dark-blue pt-7 pb-10 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3 flex flex-col">
             <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
               About Me
@@ -187,164 +187,386 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
-          {/* LGDA PROJECT */}
-          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
-            <Image
-              src={Project1}
-              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
-              alt="LGDA Project"
-            />
+        <section className="">
+          <div class="flex items-center justify-center pb-12">
+            <h1 className="max-w-sm text-center py-4 px-6 rounded-3xl outer-glow hover:select-none text-3xl font-extrabold text-glow">
+              Projects
+            </h1>
+          </div>
+          <div className="justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+            {/* LGDA PROJECT */}
+            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+              <Image
+                src={Project1}
+                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+                alt="LGDA Project"
+              />
 
-            <div class="px-6 py-4">
-              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                LGDA Web Platform
+              <div class="px-6 py-4">
+                <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                  LGDA Web Platform
+                </div>
+                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                  A full-stack web platform built for the Local Government
+                  Directors Association. Designed and developed the frontend and
+                  backend, including user-friendly UI/UX, a scalable database
+                  and secure user-authentication.
+                </p>
               </div>
-              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A full-stack web platform built for the Local Government
-                Directors Association. Designed and developed the frontend and
-                backend, including user-friendly UI/UX, a scalable database and
-                secure user-authentication.
-              </p>
+              <div class="px-6 pt-2 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  JavaScript
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  PHP
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Heroku
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  MySQL
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  NodeJS
+                </span>
+
+                <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="http://www.lgda.ie/login.php"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="px-6 pt-2 pb-2">
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                JavaScript
-              </span>
+            {/* GEO-GIT PROJECT */}
+            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+              <Image
+                src={Project2}
+                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+                alt="Geo Git Project"
+              />
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                PHP
-              </span>
+              <div class="px-6 py-4">
+                <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                  Geo Git
+                </div>
+                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                  A full-stack web app that ranks the top GitHub users by
+                  location, making use of the GitHub API and GitHub Developer
+                  Program. Gathers the top users by location based on followers,
+                  number of repositories, etc.
+                </p>
+              </div>
+              <div class="px-6 pt-2 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  JavaScript
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  React
+                </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Heroku
-              </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Tailwind CSS
+                </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                MySQL
-              </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  NextJS
+                </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                NodeJS
-              </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Vercel
+                </span>
 
-              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="http://www.lgda.ie/login.php"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FiExternalLink />
-                </a>
+                <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Geo-Git-v1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://geo-git.vercel.app/search.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* API PROJECT */}
+            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+              <Image
+                src={Project3}
+                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+                alt="API Project"
+              />
+
+              <div class="px-6 py-4">
+                <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                  Irish Artists API
+                </div>
+                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                  A REST API providing comprehensive and reliable information on
+                  contemporary Irish artists and creatives. This API aims to
+                  allow users to access and utilise frequently updated data
+                  regarding the world of Irish artists.
+                </p>
+              </div>
+              <div class="px-6 pt-2 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Java
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Spring Boot
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Maven
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Postman
+                </span>
+
+                <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Contemporary-Irish-Artists-API"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          {/* GEO-GIT PROJECT */}
-          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
-            <Image
-              src={Project2}
-              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
-              alt="Geo Git Project"
-            />
+        </section>
 
-            <div class="px-6 py-4">
-              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                Geo Git
+        <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-5 md:grid hidden">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
+            {/* SCRIPT PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Retail Checkout Scripts
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  Automatic checkout scripts for Irish retailers, allowing users
+                  to purchase limited items faster. Also allows users to
+                  automate the process. Built with Selenium.
+                </p>
               </div>
-              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A full-stack web app that ranks the top GitHub users by
-                location, making use of the GitHub API and GitHub Developer
-                Program. Gathers the top users by location based on followers,
-                number of repositories, etc.
-              </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                JavaScript
-              </span>
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                React
-              </span>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Python
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Selenium
+                </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Tailwind CSS
-              </span>
-
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                NextJS
-              </span>
-
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Vercel
-              </span>
-
-              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy/Geo-Git-v1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiFillGithub />
-                </a>
-
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://geo-git.vercel.app/search.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FiExternalLink />
-                </a>
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Irish-Checkout-Scripts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* API PROJECT */}
-          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
-            <Image
-              src={Project3}
-              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
-              alt="API Project"
-            />
-
-            <div class="px-6 py-4">
-              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                Irish Artists API
+            {/* EVENT-SERVICE PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Event Ticketing Service
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  Event ticketing system that allows users to create events, as
+                  well as buy and sell tickets. Year 1, Semester 2
+                  Object-Oriented Programming Project.
+                </p>
               </div>
-              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A REST API providing comprehensive and reliable information on
-                contemporary Irish artists and creatives. This API aims to allow
-                users to access and utilise frequently updated data regarding
-                the world of Irish artists.
-              </p>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Java
+                </span>
+
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Event-Ticketing-Service"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="px-6 pt-2 pb-2">
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Java
-              </span>
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Spring Boot
-              </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Maven
-              </span>
+            {/* v2 Portfolio PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Personal Website v2
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  My second attempt at a personal website. Displaying
+                  information about me, as well as projects I have undertaken.
+                </p>
+              </div>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  React
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Next JS
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Tailwind CSS
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Vercel
+                </span>
 
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                Postman
-              </span>
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/v2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://v2-sheeehy.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </div>
+              </div>
+            </div>
 
-              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy/Contemporary-Irish-Artists-API"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiFillGithub />
-                </a>
+            {/* Stock-Control PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Stock Control System
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  A retail stock control system. Built for both staff and
+                  customers. Allows users to track, update and purchase stock.
+                  Also features a GUI using JavaFX.
+                </p>
+              </div>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Java
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  JavaFX
+                </span>
+
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Stock-Control-System"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* v2 Portfolio PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Personal Website v1
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  My first attempt at a personal website. Features some of my
+                  project, as well as what I'm currently learning.
+                </p>
+              </div>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  JavaScript
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  HTML
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  CSS
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Vercel
+                </span>
+
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/v1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* SCRIPT PROJECT */}
+            <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="px-3 py-2">
+                <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
+                  Retail Checkout Scripts
+                </div>
+                <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
+                  Automatic checkout scripts for Irish retailers, allowing users
+                  to purchase limited items faster. Also allows users to
+                  automate the process. Built with Selenium.
+                </p>
+              </div>
+              <div class="px-6 pt-0 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Python
+                </span>
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
+                  Selenium
+                </span>
+
+                <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Irish-Checkout-Scripts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
