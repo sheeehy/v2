@@ -22,6 +22,8 @@ import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
 
 import Project1 from "public/lgdaProject.JPG";
+import Project2 from "public/GeoGit Project.JPG";
+import Project3 from "public/APIProject.JPG";
 
 export default function Home() {
   return (
@@ -186,12 +188,14 @@ export default function Home() {
         </section>
 
         <section className="justify-center h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+          {/* LGDA PROJECT */}
           <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
             <Image
               src={Project1}
-              className="px-3 rounded-custom pt-2"
-              alt="Sunset in the mountains"
+              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+              alt="LGDA Project"
             />
+
             <div class="px-6 py-4">
               <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
                 LGDA Web Platform
@@ -207,21 +211,27 @@ export default function Home() {
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                 JavaScript
               </span>
+
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                HTML
+                PHP
               </span>
+
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                CSS
+                Heroku
               </span>
 
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                 PostgreSQL
               </span>
 
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                NodeJS
+              </span>
+
               <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
                 <a
                   className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy/Old-LGDA"
+                  href="https://github.com/sheeehy/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -230,7 +240,63 @@ export default function Home() {
 
                 <a
                   className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy"
+                  href="http://www.lgda.ie/login.php"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiExternalLink />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* GEO-GIT PROJECT */}
+          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <Image
+              src={Project2}
+              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+              alt="Geo Git Project"
+            />
+
+            <div class="px-6 py-4">
+              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                Geo Git
+              </div>
+              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                A full-stack web app that tracks the top GitHub users by
+                location, making use of the GitHub API and GitHub Developer
+                Program. Gathers the top users by location based on followers,
+                number of repositories, etc.
+              </p>
+            </div>
+            <div class="px-6 pt-2 pb-2">
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                JavaScript
+              </span>
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                React
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                Tailwind CSS
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                NextJS
+              </span>
+
+              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://github.com/sheeehy/Geo-Git-v1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub />
+                </a>
+
+                <a
+                  className="hover:text-gray-500 transition ease-in-out duration-200"
+                  href="https://geo-git.vercel.app/search.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -240,108 +306,49 @@ export default function Home() {
             </div>
           </div>
 
+          {/* API PROJECT */}
           <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
             <Image
-              src={Project1}
-              className="px-3 rounded-custom pt-2"
-              alt="Sunset in the mountains"
+              src={Project3}
+              className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+              alt="API Project"
             />
+
             <div class="px-6 py-4">
               <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                LGDA Web Platform
+                Irish Artists API
               </div>
               <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A full-stack web platform built for the Local Government
-                Directors Association. Designed and developed the frontend and
-                backend, including user-friendly UI/UX, a scalable database and
-                secure user-authentication.
+                A REST API providing comprehensive and reliable information on
+                contemporary Irish artists and creatives. This API aims to allow
+                users to access and utilise frequently updated data regarding
+                the world of Irish artists.
               </p>
             </div>
             <div class="px-6 pt-2 pb-2">
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                JavaScript
+                Java
               </span>
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                HTML
-              </span>
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                CSS
+                Spring Boot
               </span>
 
               <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                PostgreSQL
+                Maven
+              </span>
+
+              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                Postman
               </span>
 
               <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
                 <a
                   className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy"
+                  href="https://github.com/sheeehy/Contemporary-Irish-Artists-API"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiFillGithub />
-                </a>
-
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FiExternalLink />
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
-            <Image
-              src={Project1}
-              className="px-3 rounded-custom pt-2"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                LGDA Web Platform
-              </div>
-              <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                A full-stack web platform built for the Local Government
-                Directors Association. Designed and developed the frontend and
-                backend, including user-friendly UI/UX, a scalable database and
-                secure user-authentication.
-              </p>
-            </div>
-            <div class="px-6 pt-2 pb-2">
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                JavaScript
-              </span>
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                HTML
-              </span>
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                CSS
-              </span>
-
-              <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                PostgreSQL
-              </span>
-
-              <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <AiFillGithub />
-                </a>
-
-                <a
-                  className="hover:text-gray-500 transition ease-in-out duration-200"
-                  href="https://github.com/sheeehy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FiExternalLink />
                 </a>
               </div>
             </div>
