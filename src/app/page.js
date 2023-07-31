@@ -23,7 +23,7 @@ import Image9 from "public/nodejs.png";
 
 import Project1 from "public/lgdaProject.JPG";
 import Project2 from "public/GeoGit Project.JPG";
-import Project3 from "public/APIProject.JPG";
+import Project3 from "public/APIProject.jpg";
 
 export default function Home() {
   return (
