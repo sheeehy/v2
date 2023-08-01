@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,6 +23,7 @@ module.exports = {
       },
       boxShadow: {
         "outer-glow": "0 0 15px 5px rgba(0, 200, 0, .7)", // Customize the color and size of the outer glow as desired.
+        glow: "0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00",
       },
       keyframes: {
         "fade-in": {

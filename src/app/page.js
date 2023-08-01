@@ -40,9 +40,10 @@ export default function Home() {
           </h1>
 
           <ul className="flex items-center">
-            <li className="font-small tracking-wider bg-dark-blue px-5 rounded-lg ml-8 text-base py-3">
-              <a> Gaeilge </a>
+            <li class="font-small tracking-wider    ml-8  hover:shadow-glow hover:bg-green-800 ">
+              <a class="text-white"> Gaeilge </a>
             </li>
+
             <li className="">
               <a
                 className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom"
