@@ -194,12 +194,69 @@ export default function Home() {
               Projects
             </h1>
           </div>
-          <div className="justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+
+          <div className="justify-center flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+            {/* Github Tracker PROJECT */}
+            <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
+              <Image
+                src={Project2}
+                className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
+                alt="LGDA Project"
+              />
+
+              <div class="px-6 py-4">
+                <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
+                  Geo Git
+                </div>
+                <p class="text-sm py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom">
+                  A full-stack web app that ranks the top GitHub users by
+                  location, making use of the GitHub API and GitHub Developer
+                  Program. Gathers the top users by location based on followers,
+                  number of repositories, etc.
+                </p>
+              </div>
+              <div class="px-6 pt-2 pb-2">
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  JavaScript
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  React
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Tailwind
+                </span>
+
+                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  Vercel
+                </span>
+
+                <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://github.com/sheeehy/Geo-Git-v1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillGithub />
+                  </a>
+                  <a
+                    className="hover:text-gray-500 transition ease-in-out duration-200"
+                    href="https://geo-git.vercel.app/search.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </div>
+              </div>
+            </div>
             {/* LGDA PROJECT */}
-            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
               <Image
                 src={Project1}
-                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+                className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
                 alt="LGDA Project"
               />
 
@@ -207,11 +264,11 @@ export default function Home() {
                 <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
                   LGDA Web Platform
                 </div>
-                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                <p class="text-sm py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
                   A full-stack web platform built for the Local Government
-                  Directors Association. Designed and developed the frontend and
-                  backend, including user-friendly UI/UX, a scalable database
-                  and secure user-authentication.
+                  Directors Association. Developed the frontend and backend,
+                  including user-friendly UI/UX, a scalable database and secure
+                  user-authentication. 100+ active paid members.
                 </p>
               </div>
               <div class="px-6 pt-2 pb-2">
@@ -247,72 +304,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            {/* GEO-GIT PROJECT */}
-            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
-              <Image
-                src={Project2}
-                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
-                alt="Geo Git Project"
-              />
-
-              <div class="px-6 py-4">
-                <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                  Geo Git
-                </div>
-                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
-                  A full-stack web app that ranks the top GitHub users by
-                  location, making use of the GitHub API and GitHub Developer
-                  Program. Gathers the top users by location based on followers,
-                  number of repositories, etc.
-                </p>
-              </div>
-              <div class="px-6 pt-2 pb-2">
-                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                  JavaScript
-                </span>
-                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                  React
-                </span>
-
-                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                  Tailwind CSS
-                </span>
-
-                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                  NextJS
-                </span>
-
-                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
-                  Vercel
-                </span>
-
-                <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
-                  <a
-                    className="hover:text-gray-500 transition ease-in-out duration-200"
-                    href="https://github.com/sheeehy/Geo-Git-v1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <AiFillGithub />
-                  </a>
-
-                  <a
-                    className="hover:text-gray-500 transition ease-in-out duration-200"
-                    href="https://geo-git.vercel.app/search.html"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FiExternalLink />
-                  </a>
-                </div>
-              </div>
-            </div>
-
             {/* API PROJECT */}
-            <div class="max-w-sm bg-dark-blue py-7 px-4 rounded-custom outer-glow hover:select-none">
+            <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
               <Image
                 src={Project3}
-                className="px-3 rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500 w-100 h-60"
+                className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
                 alt="API Project"
               />
 
@@ -320,7 +316,7 @@ export default function Home() {
                 <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
                   Irish Artists API
                 </div>
-                <p class="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-base">
+                <p class="text-sm py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
                   A REST API providing comprehensive and reliable information on
                   contemporary Irish artists and creatives. This API aims to
                   allow users to access and utilise frequently updated data
@@ -331,6 +327,7 @@ export default function Home() {
                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                   Java
                 </span>
+
                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
                   Spring Boot
                 </span>
@@ -358,7 +355,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-5 md:grid hidden">
+        <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-20 md:grid hidden">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
             {/* SCRIPT PROJECT */}
             <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
