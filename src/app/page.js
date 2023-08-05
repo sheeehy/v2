@@ -319,7 +319,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* JAVA API PROJEC */}
+              {/* JAVA API PROJECT */}
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project3}
