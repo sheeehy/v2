@@ -39,4 +39,4 @@ To learn more about Next.js, take a look at the following resources:
 | Darker Gray    | ![#242C35](https://via.placeholder.com/10/242C35?text=+) `#242C35` |
 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
