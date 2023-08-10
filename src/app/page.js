@@ -275,7 +275,7 @@ export default function Home() {
                     A full-stack web platform built for the Local Government
                     Directors Association. Developed the frontend and backend,
                     including user-friendly UI/UX, a scalable database and
-                    secure user-authentication. 100+ active paid members.
+                    secure user-authentication. 60+ active paid members.
                   </p>
                 </div>
                 <div class="px-6 pt-2 pb-2">
