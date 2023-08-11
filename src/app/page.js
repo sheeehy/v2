@@ -30,7 +30,7 @@ export default function Home() {
       <Head>
         <title>Jack Sheehy | Student</title>
         <meta name="" content="" />
-        <link rel="icon" href="public/me.png" />
+        <link rel="icon" href="public/me.png" sizes="any" />
       </Head>
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">

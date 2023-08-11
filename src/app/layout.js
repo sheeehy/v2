@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Jack Sheehy | Student",
+  icon: "/me.png",
 };
 
 export default function RootLayout({ children }) {
