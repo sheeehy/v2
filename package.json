@@ -11,7 +11,7 @@
   "dependencies": {
     "@material-tailwind/react": "^2.0.7",
     "autoprefixer": "10.4.14",
-    "i18next": "^23.2.11",
+    "i18next": "^23.4.1",
     "i18next-browser-languagedetector": "^7.1.0",
     "i18next-http-backend": "^2.2.1",
     "next": "13.4.12",
@@ -20,7 +20,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-flagkit": "^2.0.4",
-    "react-i18next": "^13.0.2",
+    "react-i18next": "^13.0.3",
     "react-icons": "^4.10.1",
     "tailwindcss": "3.3.3"
   }

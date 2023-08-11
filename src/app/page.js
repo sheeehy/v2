@@ -35,7 +35,7 @@ export default function Home() {
 
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
         <nav className="pt-10 mb-12 flex justify-between  top-0 bg-transparent ">
-          <h1 className="text-xl font-extrabold hover:select-none hidden sm:block bg-dark-blue px-5 rounded-lg ">
+          <h1 className="text-xl font-extrabold hover:select-none hidden sm:block bg-dark-blue px-5 rounded-lg transition-transform duration-300 hover:-translate-y-1">
             <Link href="/">jack sheehy</Link>
           </h1>
 
@@ -105,7 +105,7 @@ export default function Home() {
         </section>
 
         <section className="pb-5 justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
-          <div className="bg-dark-blue pt-7 pb-10 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3 flex flex-col">
+          <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
             <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
               About Me
             </h3>
@@ -563,23 +563,23 @@ export default function Home() {
         </section>
 
         <section className="flex items-center justify-center h-screen py-64">
-          <div className="bg-dark-blue flex flex-col items-center py-6 px-6 rounded-custom outer-glow custom-width hover:select-none ">
-            <div className="max-w-lg text-center">
+          <div className="bg-dark-blue flex flex-col items-center pt-6 pb-8 px-6 rounded-custom outer-glow custom-width hover:select-none ">
+            <div className="max-w-md text-center">
               <h2 className="text-4xl pb-2 font-extrabold text-glow">
                 Get In Touch
               </h2>
-              <p className="text-xl pb-6 pt-1 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom">
+              <p className="text-lg pb-6 pt-1 leading-8 tracking-wider text-gray-400 max-w-screen-md font-custom">
                 I'm currently a full-time student, but don't hesitate to contact
-                me if you have a question or just want to touch base. I’ll do my
-                best to get back to you! :)
+                me if you have a question. I’ll do my best to get back to you!
+                :)
               </p>
             </div>
-            <div className="bg-dark-blue py-4 px-0 w-60 rounded-custom outer-glow flex justify-center">
+            <div className="bg-dark-blue py-2  w-48 rounded-custom outer-glow flex justify-center">
               <a
                 href="mailto:jackhughsheehy@gmail.com"
                 className="flex justify-center"
               >
-                <h1 className="text-2xl pb-0 font-extrabold text-glow">
+                <h1 className="text-xl pb-0 font-extrabold text-glow">
                   Contact Me
                 </h1>
               </a>

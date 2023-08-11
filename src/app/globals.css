@@ -105,3 +105,19 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: #384753; 
 }
+
+::selection {
+  background: #2b3640;
+ 
+}
+
+.fade-in-initial {
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
