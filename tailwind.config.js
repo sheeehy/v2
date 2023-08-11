@@ -18,9 +18,14 @@ module.exports = {
         bg: "background-image",
       },
       animation: {
-        "fade-in": "fade-in 5s",
-        scroll: "scroll 2.2s cubic-bezier(.15,.41,.69,.94) infinite",
+        "fade-in": "fadeIn 0.5s ease-out forwards",
       },
+      animationDelay: {
+        1: "1.5s",
+        2: "2s",
+        3: "2.5s",
+      },
+
       boxShadow: {
         "outer-glow": "0 0 15px 5px rgba(0, 200, 0, .7)", // Customize the color and size of the outer glow as desired.
         glow: "0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00",
