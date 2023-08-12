@@ -28,8 +28,8 @@ a {
 }
 
 .outer-glow {
-  @apply shadow-xl;
-  box-shadow: 0 0 10px #242C35, 0 0 45px #000000;
+  box-shadow: 12px 12px 24px #101418, -14px -12px 20px #202830;
+
 }
 
 .outer-glow1 {
@@ -130,4 +130,16 @@ a {
   100% {
     opacity: 1;
   }
+}
+@keyframes loadTransform {
+  0%, 100% {
+      transform: none;
+  }
+  50% {
+      transform: scale(1.03) rotate(3deg) translateY(-5px);
+  }
+}
+
+.appear-later {
+  animation: loadTransform 650ms 1s forwards ease-in-out;
 }

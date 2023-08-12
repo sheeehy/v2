@@ -101,7 +101,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="hidden custom1:block pl-5">
+              <div className="hidden custom1:block pl-5 appear-later">
                 <Image className="image-size" src={me} />
               </div>
             </div>
