@@ -143,3 +143,16 @@ a {
 .appear-later {
   animation: loadTransform 650ms 1s forwards ease-in-out;
 }
+
+.text-white-to-gradient {
+  color: white;
+  background-image: linear-gradient(to right, green, white, rgb(255, 136, 0));
+  -webkit-background-clip: text;
+  transition: color 150ms ease-in-out;
+font-weight: bold;
+  
+}
+
+.text-white-to-gradient:hover {
+  color: transparent;
+}

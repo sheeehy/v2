@@ -41,8 +41,11 @@ export default function Home() {
             </h1>
 
             <ul className="flex items-center animate-fade-in delay-2">
-              <li className="font-small tracking-wider ml-8 hover:shadow-glow hover:bg-green-800 transition-transform duration-300 hover:-translate-y-1">
-                <a className="text-white cursor-pointer"> Gaeilge </a>
+              <li className="font-small tracking-wider ml-8 transition-transform duration-300">
+                <a className="cursor-pointer text-white-to-gradient font-small tracking-wider ml-8">
+                  {" "}
+                  Gaeilge{" "}
+                </a>
               </li>
 
               <li className="animate-fade-in delay-3">
