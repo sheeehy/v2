@@ -123,7 +123,7 @@ export default function Home() {
                   career in that field as I got older.
                 </p>
                 <Image
-                  className="image-size2 self-start pb-0 pl-2 max-2xl:hidden"
+                  className="image-size2 self-start pb-0 pl-0 max-2xl:hidden"
                   src={me2}
                 />
               </div>
@@ -147,8 +147,8 @@ export default function Home() {
                 Algorithms, Data Structures, as well as business. We have a
                 primary focus on Java, though outside of coursework I'm learning
                 other languages and frameworks such as React, Spring Boot,
-                Javascript, Python and more. In the future, I'd like to learn C#
-                or Rust.
+                Javascript, Python and more. In the future, I'd like to learn
+                C#.
               </p>
               <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
                 My interest in technology is not limited to software but extends
@@ -207,7 +207,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project2}
-                  className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2 opacity-100  transition-opacity duration-500   w-80 h-52"
                   alt="LGDA Project"
                 />
 
@@ -263,7 +263,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project1}
-                  className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500   w-80 h-52"
                   alt="LGDA Project"
                 />
 
@@ -323,7 +323,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project3}
-                  className="px-3  rounded-custom pt-2 opacity-70 hover:opacity-100 transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500   w-80 h-52"
                   alt="API Project"
                 />
 
