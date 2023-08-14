@@ -64,7 +64,7 @@ export default function Home() {
 
         <div className="opacity-0 animate-fade-in delay-10">
           <section className="flex items-start justify-center h-screen pt-32">
-            <div className="bg-dark-blue flex items-start py-6 px-6 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
+            <div className="bg-dark-blue flex items-start pl-8 py-6 px-6 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
               <div className="max-w-lg ">
                 <h2 className="text-4xl pb-2 font-extrabold text-glow">
                   Business Computing student at TU Dublin.
