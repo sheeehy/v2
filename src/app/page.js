@@ -155,41 +155,41 @@ export default function Home() {
                 to hardware as well. From building custom PCs to tinkering with
                 electronic devices.
               </p>
-              <div className="flex space-x-4 pt-5  flex-wrap">
+              <div className="flex space-x-4 pt-5  flex-wrap ">
                 <Image
                   src={Image2}
                   alt="Java Icon"
-                  className="w-10 h-10 max-2xl:hidden"
+                  className="w-10 h-10 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image3}
                   alt="JavaScript Icon"
-                  className="w-10 h-10 max-2xl:hidden"
+                  className="w-10 h-10 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image5}
                   alt="Python Icon"
-                  className="w-10 h-10 max-2xl:hidden"
+                  className="w-10 h-10 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image6}
                   alt="React Icon"
-                  className="w-11 h-10 max-2xl:hidden"
+                  className="w-11 h-10 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image7}
                   alt="Spring Icon"
-                  className="w-11 h-11 max-2xl:hidden"
+                  className="w-11 h-11 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image9}
                   alt="Vim Icon"
-                  className="w-10 h-10 max-2xl:hidden"
+                  className="w-10 h-10 max-2xl:hidden greyscale"
                 />
                 <Image
                   src={Image1}
                   alt="Git Icon"
-                  className="w-10 h-10 max-2xl:hidden"
+                  className="w-10 h-10 max-2xl:hidden greyscale"
                 />
               </div>
             </div>
