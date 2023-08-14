@@ -75,7 +75,7 @@ export default function Home() {
                   in Wicklow, Ireland.
                 </p>
 
-                <div className="text-4xl flex gap-6 py-0 text-gray-400 ">
+                <div className="text-3xl flex gap-6 py-0 text-gray-400 ">
                   <a
                     className="hover:text-gray-500 transition ease-in-out duration-200"
                     href="https://github.com/sheeehy"
