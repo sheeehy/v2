@@ -158,3 +158,37 @@ font-weight: bold;
   color: transparent;
 }
 
+@keyframes scroll_1 {
+  0%   { transform: translateY(0); }
+  25%  { transform: translateY(-0.6em); }
+  50%  { transform: translateY(0); }
+  75%  { transform: translateY(0.6em); }
+  100% { transform: translateY(0); }
+}
+
+.scroll-icon {
+  @apply relative block h-12 w-7 border border-gray-400 rounded-full;
+}
+
+.scroll-icon__wheel-outer {
+  @apply absolute left-1/2 top-2.5 h-4 w-1 -ml-0.5 rounded-full overflow-hidden;
+}
+
+.scroll-icon__wheel-inner {
+  @apply block h-full w-full rounded-full bg-gray-400;
+  animation: scroll_1 2.5s ease-in-out infinite;
+}
+
+.example {
+  @apply flex flex-col items-center justify-center flex-1;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.show-after-5s {
+  animation: fadeIn 1.5s forwards 5s;
+  opacity: 0;
+}

@@ -63,7 +63,7 @@ export default function Home() {
         </div>
 
         <div className="opacity-0 animate-fade-in delay-10">
-          <section className="flex items-start justify-center h-screen pt-32">
+          <section className="flex flex-col items-center justify-center h-screen pt-32">
             <div className="bg-dark-blue flex items-start pl-8 py-6 px-6 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
               <div className="max-w-lg ">
                 <h2 className="text-4xl pb-2 font-extrabold text-glow">
@@ -107,6 +107,14 @@ export default function Home() {
               <div className="hidden custom1:block pl-5 appear-later">
                 <Image className="image-size" src={me} />
               </div>
+            </div>
+
+            <div class="flex flex-col items-center justify-center example example--1 show-after-5s">
+              <span class="relative block h-12 w-6 border-1 border-white rounded-full scroll-icon">
+                <span class="absolute left-1/2 top-2.5 h-4 w-1 -ml-0.5 rounded-full overflow-hidden scroll-icon__wheel-outer">
+                  <span class="block h-full w-full rounded-full bg-white scroll-icon__wheel-inner"></span>
+                </span>
+              </span>
             </div>
           </section>
 
