@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+
+html {
+  @apply scroll-smooth;
+}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -189,6 +194,6 @@ font-weight: bold;
 }
 
 .show-after-5s {
-  animation: fadeIn 1.5s forwards 5s;
+  animation: fadeIn 1.5s forwards 3.5s;
   opacity: 0;
 }

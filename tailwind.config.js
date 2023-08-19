@@ -17,6 +17,7 @@ module.exports = {
       transitionProperty: {
         bg: "background-image",
       },
+
       animation: {
         "fade-in": "fadeIn 0.5s ease-out forwards",
       },
@@ -69,6 +70,7 @@ module.exports = {
         "2xl": "1536px",
         "max-2xl": { max: "1499px" },
       },
+      scrollBehavior: ["smooth"],
     },
   },
 
