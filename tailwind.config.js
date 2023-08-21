@@ -44,6 +44,7 @@ module.exports = {
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
+        monaSans: ["Mona Sans", "sans-serif"],
       },
       width: {
         "custom-larger": "700px",
