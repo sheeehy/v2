@@ -134,15 +134,19 @@ a {
 }
 @keyframes loadTransform {
   0%, 100% {
-      transform: none;
+    transform: none;
   }
   50% {
-      transform: scale(1.03) rotate(3deg) translateY(-5px);
+    transform: scale(1.03) rotate(3deg) translateY(-5px);
   }
 }
 
-.appear-later {
-  animation: loadTransform 650ms 1s forwards ease-in-out;
+.image-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-hover:hover {
+  animation: loadTransform 650ms forwards ease-in-out;
 }
 
 .text-white-to-gradient {
@@ -202,11 +206,14 @@ font-weight: bold;
   font-size: 2.75rem;
   color: rgb(156 163 175 / var(--tw-text-opacity));
   line-height: 3.75rem;
- }
+  pointer-events: none;
+  user-select: none; 
+}
 
  .inlineSvg {
   display: inline;
   vertical-align: middle;  
   margin-left: 0.5rem;     
   margin-right: 0.5rem; 
+  
 }
