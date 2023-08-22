@@ -610,6 +610,7 @@ export default function Home() {
             </div>
           </section>
 
+          {/*
           <section className="flex items-center justify-center ">
             <p class="textCustom">
               <span className="text-white">Universe brings together</span> the
@@ -699,6 +700,7 @@ export default function Home() {
               <span className="text-white"> We’ll see you there!</span>
             </p>
           </section>
+  */}
         </div>
       </main>
     </div>
