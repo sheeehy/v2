@@ -204,7 +204,7 @@ export default function Home() {
           </section>
 
           <section className="">
-            <div class="flex items-center justify-center pb-12">
+            <div class="flex items-center justify-center pb-8">
               <h1 className="max-w-sm text-center py-4 px-6 rounded-3xl outer-glow hover:select-none text-3xl font-extrabold text-glow">
                 Projects
               </h1>
