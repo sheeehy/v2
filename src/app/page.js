@@ -104,7 +104,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="hidden custom1:block pl-5 image-hover">
+              <div className="hidden custom1:block pl-5">
                 <Image className="image-size" src={me} />
               </div>
             </div>
