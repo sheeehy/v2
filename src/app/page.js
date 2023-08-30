@@ -277,7 +277,7 @@ export default function Home() {
 
                 <div class="px-6 py-4">
                   <div class="text-2xl pt-0 pb-3 font-extrabold text-glow">
-                    LGDA Web Platform
+                    LGDA Platform
                   </div>
                   <p class="text-sm py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
                     A full-stack web platform built for the Local Government
