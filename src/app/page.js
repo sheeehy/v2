@@ -36,7 +36,7 @@ export default function Home() {
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
         <div className="animate-fade-in">
           <nav className="pt-10 mb-12 flex justify-between top-0 bg-transparent">
-            <h1 className="text-xl font-extrabold hover:select-none hidden sm:block bg-dark-blue px-5 rounded-lg transition-transform duration-300 hover:-translate-y-1 animate-fade-in delay-1">
+            <h1 className="text-xl font-extrabold hover:select-none sm:block bg-dark-blue px-5 rounded-lg transition-transform duration-300 hover:-translate-y-1 animate-fade-in delay-1">
               <Link href="/">jack sheehy</Link>
             </h1>
 
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="pb-5 justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+          <section className="pb-32 md:pb-5 justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
             <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
               <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
                 About Me
@@ -151,7 +151,7 @@ export default function Home() {
                 Javascript, Python and more. In the future, I'd like to learn
                 C#.
               </p>
-              <p className="text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom ">
+              <p className="hidden md:block text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom">
                 My interest in technology is not limited to software but extends
                 to hardware as well. From building custom PCs to tinkering with
                 electronic devices.
