@@ -41,13 +41,6 @@ export default function Home() {
             </h1>
 
             <ul className="flex items-center animate-fade-in delay-2">
-              <li className="font-small tracking-wider ml-8 transition-transform duration-300">
-                <a className="cursor-pointer text-white-to-gradient font-small tracking-wider ml-8">
-                  {" "}
-                  Gaeilge{" "}
-                </a>
-              </li>
-
               <li className="animate-fade-in delay-3">
                 <a
                   className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom transition-opacity duration-100 opacity-100 hover:opacity-80"
