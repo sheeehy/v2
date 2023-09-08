@@ -510,25 +510,25 @@ export default function Home() {
               <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
-                    Personal Website v1
+                    Realtime Chat App
                   </div>
                   <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
-                    My first attempt at a personal website. Features some of my
-                    project, as well as what I'm currently learning.
+                    A realtime chatting platform that allows group chats, 1-on-1
+                    chats, read reciepts, image and file support and more.
                   </p>
                 </div>
                 <div class="px-6 pt-0 pb-2">
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    JavaScript
+                    React
                   </span>
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    HTML
+                    NodeJS
                   </span>
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    CSS
+                    ChatEngine.io
                   </span>
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    Vercel
+                    Vite
                   </span>
 
                   <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
@@ -603,7 +603,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/*
           <section className="flex items-center justify-center ">
             <p class="textCustom">
               <span className="text-white">Universe brings together</span> the
@@ -693,7 +692,6 @@ export default function Home() {
               <span className="text-white"> We’ll see you there!</span>
             </p>
           </section>
-  */}
         </div>
       </main>
     </div>
