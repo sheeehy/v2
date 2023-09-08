@@ -534,7 +534,7 @@ export default function Home() {
                   <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
-                      href="https://github.com/sheeehy/v1"
+                      href="https://github.com/sheeehy/Realtime-Chat"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
