@@ -44,7 +44,7 @@ export default function Home() {
               <li className="animate-fade-in delay-3">
                 <a
                   className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom transition-opacity duration-100 opacity-100 hover:opacity-80"
-                  href="/Resume.pdf"
+                  href="/ResumeNew.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
