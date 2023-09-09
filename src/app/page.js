@@ -24,6 +24,8 @@ import Project1 from "public/lgdaProject.JPG";
 import Project2 from "public/GeoGit Project.JPG";
 import Project3 from "public/APIProject.jpg";
 
+import cat from "public/cat.png";
+
 export default function Home() {
   return (
     <div>
@@ -44,7 +46,7 @@ export default function Home() {
               <li className="animate-fade-in delay-3">
                 <a
                   className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom transition-opacity duration-100 opacity-100 hover:opacity-80"
-                  href="/Resume2023.pdf"
+                  href="/Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -626,6 +628,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          <Image src={cat} alt="Cat" className="mx-auto d-block w-52" />
         </div>
       </main>
     </div>
