@@ -99,7 +99,7 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="hidden custom1:block pl-5 select-none pointer-events-none">
+              <div className="hidden custom1:block pl-3 select-none pointer-events-none">
                 <Image className="image-size" src={me2} />
               </div>
             </div>
