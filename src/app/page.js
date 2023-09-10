@@ -533,7 +533,8 @@ export default function Home() {
                   </div>
                   <p class="text-md pt-1 pb-1 px-2 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom text-sm">
                     A realtime chatting platform that allows group chats, 1-on-1
-                    chats, read reciepts, image and file support and more.
+                    chats, read reciepts, image and file support and more. Built
+                    with ChatEngine.io
                   </p>
                 </div>
                 <div class="px-6 pt-0 pb-2">
@@ -544,10 +545,10 @@ export default function Home() {
                     NodeJS
                   </span>
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    ChatEngine.io
+                    Vite
                   </span>
                   <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
-                    Vite
+                    ChatEngine.io
                   </span>
 
                   <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
