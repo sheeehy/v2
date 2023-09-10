@@ -99,8 +99,8 @@ export default function Home() {
                   </a>
                 </div>
               </div>
-              <div className="hidden custom1:block pl-5">
-                <Image className="image-size" src={me} />
+              <div className="hidden custom1:block pl-5 select-none pointer-events-none">
+                <Image className="image-size" src={me2} />
               </div>
             </div>
 
@@ -129,8 +129,8 @@ export default function Home() {
                   got older.
                 </p>
                 <Image
-                  className="image-size2 self-start pb-0 pl-0 max-2xl:hidden"
-                  src={me2}
+                  className="image-size2 self-start pb-0 pl-0 max-2xl:hidden select-none pointer-events-none"
+                  src={me}
                 />
               </div>
               <p className="text-md py-1 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom pb-1">
@@ -175,41 +175,41 @@ export default function Home() {
                 to hardware as well. From building custom PCs to tinkering with
                 electronic devices.
               </p>
-              <div className="flex space-x-4 pt-5  flex-wrap ">
+              <div className="flex space-x-4 pt-5 flex-wrap select-none ">
                 <Image
                   src={Image2}
                   alt="Java Icon"
-                  className="w-10 h-10 max-2xl:hidden greyscale"
+                  className="w-10 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image3}
                   alt="JavaScript Icon"
-                  className="w-10 h-10 max-2xl:hidden greyscale"
+                  className="w-10 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image5}
                   alt="Python Icon"
-                  className="w-10 h-10 max-2xl:hidden greyscale"
+                  className="w-10 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image6}
                   alt="React Icon"
-                  className="w-11 h-10 max-2xl:hidden greyscale"
+                  className="w-11 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image7}
                   alt="Spring Icon"
-                  className="w-11 h-11 max-2xl:hidden greyscale"
+                  className="w-11 h-11 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image9}
                   alt="Vim Icon"
-                  className="w-10 h-10 max-2xl:hidden greyscale"
+                  className="w-10 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300"
                 />
                 <Image
                   src={Image1}
                   alt="Git Icon"
-                  className="w-10 h-10 max-2xl:hidden greyscale"
+                  className="w-10 h-10 max-2xl:hidden filter grayscale hover:grayscale-0 transition-all duration-300 "
                 />
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project2}
-                  className="px-3  rounded-custom pt-2 opacity-100  transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2    w-80 h-52 select-none pointer-events-none"
                   alt="LGDA Project"
                 />
 
@@ -283,7 +283,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project1}
-                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none   w-80 h-52"
                   alt="LGDA Project"
                 />
 
@@ -343,7 +343,7 @@ export default function Home() {
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
                   src={Project3}
-                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500   w-80 h-52"
+                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none  w-80 h-52"
                   alt="API Project"
                 />
 
@@ -391,7 +391,7 @@ export default function Home() {
           </section>
 
           <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-20 md:grid hidden">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
               {/* PYTHON SCRIPT PROJECT */}
               <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
                 <div class="px-3 py-2">
