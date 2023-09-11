@@ -222,7 +222,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <div className="justify-center flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
+            <div className="justify-center flex flex-wrap gap-8 md:gap-10 items-start px-4 md:px-4">
               {/* Github Tracker PROJECT */}
               <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
                 <Image
@@ -242,24 +242,24 @@ export default function Home() {
                     followers, number of repositories, etc.
                   </p>
                 </div>
-                <div class="px-6 pt-2 pb-2">
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                <div class="px-6 pt-0 pb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     JavaScript
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     React
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Tailwind
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Vercel
                   </span>
 
-                  <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
                       href="https://github.com/sheeehy/Geo-Git-v1"
@@ -298,28 +298,28 @@ export default function Home() {
                     secure user-authentication. 60+ active paid members.
                   </p>
                 </div>
-                <div class="px-6 pt-2 pb-2">
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                <div class="px-6 pt-0 pb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     JavaScript
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     PHP
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Heroku
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     MySQL
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     NodeJS
                   </span>
 
-                  <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
                       href="https://github.com/sheeehy/LGDA"
@@ -358,24 +358,24 @@ export default function Home() {
                     regarding the world of Irish artists.
                   </p>
                 </div>
-                <div class="px-6 pt-2 pb-2">
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                <div class="px-6 pt-0 pb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Java
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Spring Boot
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Maven
                   </span>
 
-                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">
+                  <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-xs font-semibold text-white mr-2 mb-2">
                     Postman
                   </span>
 
-                  <div className="text-3xl flex gap-6 py-0 text-gray-400 pt-2 ">
+                  <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
                       href="https://github.com/sheeehy/Contemporary-Irish-Artists-API"
