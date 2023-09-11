@@ -629,7 +629,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <Image src={cat} alt="Cat" className="mx-auto d-block w-52" />
         </div>
       </main>
     </div>
