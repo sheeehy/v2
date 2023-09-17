@@ -21,10 +21,8 @@ import Image7 from "public/spring.png";
 import Image9 from "public/nodejs.png";
 
 import Project1 from "public/lgdaProject.JPG";
-import Project2 from "public/GeoGit Project.JPG";
+import Project2 from "public/geoGit.JPG";
 import Project3 from "public/APIProject.jpg";
-
-import cat from "public/cat.png";
 
 export default function Home() {
   return (
@@ -262,7 +260,7 @@ export default function Home() {
                   <div className="text-2xl flex gap-6 py-0 text-gray-400 pt-2 ">
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
-                      href="https://github.com/sheeehy/Geo-Git-v1"
+                      href="https://github.com/sheeehy/Geo-Git-v2"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -270,7 +268,7 @@ export default function Home() {
                     </a>
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
-                      href="https://geo-git.vercel.app/search.html"
+                      href="https://geo-git-v2.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
