@@ -170,8 +170,7 @@ export default function Home() {
               </p>
               <p className="hidden md:block text-md py-0 leading-6 tracking-wider text-gray-400 max-w-screen-md font-custom">
                 My interest in technology is not limited to software but extends
-                to hardware as well. From building custom PCs to tinkering with
-                electronic devices.
+                to hardware as well, with a passion for building PCs.
               </p>
               <div className="flex space-x-4 pt-5 flex-wrap select-none ">
                 <Image
