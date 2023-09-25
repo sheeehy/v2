@@ -267,7 +267,7 @@ export default function Home() {
                     </a>
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
-                      href="https://geo-git-v2.vercel.app/"
+                      href="https://geogit.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -327,7 +327,7 @@ export default function Home() {
                     </a>
                     <a
                       className="hover:text-gray-500 transition ease-in-out duration-200"
-                      href="http://www.lgda.ie/login.php"
+                      href="https://www.lgda.ie/login.php"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
