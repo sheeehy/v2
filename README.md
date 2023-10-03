@@ -1,5 +1,5 @@
 ##  v2 of my personal website.
-Built with React, Next.js and Tailwind.
+Built with Next.js, React and Tailwind.
 
 ## Getting Started
 
