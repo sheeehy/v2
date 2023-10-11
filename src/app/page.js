@@ -36,14 +36,14 @@ export default function Home() {
       <main className="bg-dark-blue px-10 text-gray-100 font-raleway ">
         <div className="animate-fade-in">
           <nav className="pt-10 mb-12 flex justify-between top-0 bg-transparent">
-            <h1 className="text-xl font-extrabold hover:select-none sm:block bg-dark-blue px-5 rounded-lg transition-transform duration-300 hover:-translate-y-1 animate-fade-in delay-1">
+            <h1 className="text-xl font-extrabold hover:select-none sm:block bg-dark-blue px-5 rounded-sm transition-transform duration-300 hover:-translate-y-1 animate-fade-in delay-1">
               <Link href="/">jack sheehy</Link>
             </h1>
 
             <ul className="flex items-center animate-fade-in delay-2">
               <li className="animate-fade-in delay-3">
                 <a
-                  className="bg-dark-gray px-5 rounded-lg ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom transition-opacity duration-100 opacity-100 hover:opacity-80"
+                  className="bg-dark-gray px-5 rounded-md ml-8 outer-glow text-base py-3 leading-8 tracking-normal text-white max-w-screen-md font-custom transition-opacity duration-100 opacity-100 hover:opacity-80"
                   href="/Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -57,7 +57,7 @@ export default function Home() {
 
         <div className="opacity-0 animate-fade-in delay-10">
           <section className="flex flex-col items-center justify-center h-screen pt-32">
-            <div className="bg-dark-blue flex items-start pl-8 py-6 px-6 mx-auto rounded-custom outer-glow custom-width hover:select-none ">
+            <div className="bg-dark-blue flex items-start pl-8 py-6 px-6 mx-auto rounded-3xl outer-glow custom-width hover:select-none ">
               <div className="max-w-lg ">
                 <h2 className="text-4xl pb-2 font-extrabold text-glow">
                   Business Computing student at TU Dublin.
@@ -112,7 +112,7 @@ export default function Home() {
           </section>
 
           <section className="pb-32 md:pb-5 justify-center min-h-screen flex flex-wrap gap-8 md:gap-16 items-start px-4 md:px-4">
-            <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
+            <div className="bg-dark-blue py-7 px-10 rounded-3xl outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
               <h3 className="text-3xl pt-0 pb-3 font-extrabold text-glow">
                 About Me
               </h3>
@@ -145,7 +145,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-dark-blue py-7 px-10 rounded-custom outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
+            <div className="bg-dark-blue py-7 px-10 rounded-3xl outer-glow hover:select-none w-full md:w-1/2 lg:w-1/3">
               <h3 className="text-3xl py-0 font-extrabold text-glow">
                 What I'm Learning
               </h3>
@@ -214,17 +214,17 @@ export default function Home() {
 
           <section className="">
             <div class="flex items-center justify-center pb-8">
-              <h1 className="max-w-sm text-center py-4 px-6 rounded-3xl outer-glow hover:select-none text-3xl font-extrabold text-glow">
+              <h1 className="max-w-sm text-center py-4 px-6 rounded-xl outer-glow hover:select-none text-3xl font-extrabold text-glow">
                 Projects
               </h1>
             </div>
 
             <div className="justify-center flex flex-wrap gap-8 md:gap-10 items-start px-4 md:px-4">
               {/* Github Tracker PROJECT */}
-              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
+              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-2xl outer-glow hover:select-none ">
                 <Image
                   src={Project2}
-                  className="px-3  rounded-custom pt-2    w-80 h-52 select-none pointer-events-none"
+                  className="px-3  rounded-3xl pt-2    w-80 h-52 select-none pointer-events-none"
                   alt="LGDA Project"
                 />
 
@@ -277,10 +277,10 @@ export default function Home() {
                 </div>
               </div>
               {/* LGDA PROJECT */}
-              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
+              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-2xl outer-glow hover:select-none ">
                 <Image
                   src={Project1}
-                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none   w-80 h-52"
+                  className="px-3  rounded-3xl pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none   w-80 h-52"
                   alt="LGDA Project"
                 />
 
@@ -337,10 +337,10 @@ export default function Home() {
                 </div>
               </div>
               {/* JAVA API PROJECT */}
-              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-custom outer-glow hover:select-none ">
+              <div class="max-w-screen-custom2 bg-dark-blue py-4 px-2 rounded-2xl outer-glow hover:select-none ">
                 <Image
                   src={Project3}
-                  className="px-3  rounded-custom pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none  w-80 h-52"
+                  className="px-3  rounded-3xl pt-2 opacity-100 transition-opacity duration-500 select-none pointer-events-none  w-80 h-52"
                   alt="API Project"
                 />
 
@@ -390,7 +390,7 @@ export default function Home() {
           <section className="pt-10 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-20 md:grid hidden">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center justify-items-center pb-8 mx-auto max-w-5xl">
               {/* PYTHON SCRIPT PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Retail Checkout Scripts
@@ -423,7 +423,7 @@ export default function Home() {
               </div>
 
               {/* EVENT-TICKETING PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Event Ticketing Service
@@ -453,7 +453,7 @@ export default function Home() {
               </div>
 
               {/* v2 Portfolio PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Personal Website v2
@@ -491,7 +491,7 @@ export default function Home() {
               </div>
 
               {/* Stock-Control PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Stock Control System
@@ -523,7 +523,7 @@ export default function Home() {
                 </div>
               </div>
               {/* v2 Portfolio PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Realtime Chat App
@@ -561,7 +561,7 @@ export default function Home() {
                 </div>
               </div>
               {/* SCRIPT PROJECT */}
-              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-custom outer-glow hover:select-none">
+              <div class="max-w-xs bg-dark-blue py-4 px-1 rounded-2xl outer-glow hover:select-none">
                 <div class="px-3 py-2">
                   <div class="text-xl pt-1 pb-3 px-2 font-extrabold text-glow">
                     Personal Website v1
@@ -603,7 +603,7 @@ export default function Home() {
           </section>
 
           <section className="flex items-center justify-center h-screen py-64">
-            <div className="bg-dark-blue flex flex-col items-center pt-6 pb-8 px-6 rounded-custom outer-glow custom-width hover:select-none ">
+            <div className="bg-dark-blue flex flex-col items-center pt-6 pb-8 px-6 rounded-3xl outer-glow custom-width hover:select-none ">
               <div className="max-w-md text-center">
                 <h2 className="text-4xl pb-2 font-extrabold text-glow">
                   Get In Touch
@@ -614,7 +614,7 @@ export default function Home() {
                   to you! :)
                 </p>
               </div>
-              <div className="bg-dark-blue py-2  w-48 rounded-custom outer-glow flex justify-center">
+              <div className="bg-dark-blue py-4  px-5 rounded-2xl outer-glow flex justify-center">
                 <a
                   href="mailto:jackhughsheehy@gmail.com"
                   className="flex justify-center"
